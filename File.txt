@@ -1,0 +1,52 @@
+Client:
+ Context:    default
+ Debug Mode: false
+
+Server:
+ Containers: 1
+  Running: 0
+  Paused: 0
+  Stopped: 1
+ Images: 8
+ Server Version: 20.10.11+dfsg1
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+  userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: systemd
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 io.containerd.runtime.v1.linux runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 1.5.9~ds1-1
+ runc version: 1.0.3+ds1-1
+ init version: 
+ Security Options:
+  apparmor
+  seccomp
+   Profile: default
+  cgroupns
+ Kernel Version: 5.14.0-kali4-amd64
+ Operating System: Kali GNU/Linux Rolling
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 2
+ Total Memory: 1.936GiB
+ Name: kali
+ ID: LPOA:G7SW:ZDCI:EMXR:D4XV:3BXO:EIED:JGPS:BAD3:7HCZ:4TDC:S24Y
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+
